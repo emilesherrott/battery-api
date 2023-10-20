@@ -1,0 +1,7 @@
+.charging {
+    background-color: greenyellow;
+}
+
+.draining {
+    background-color: red;
+}
