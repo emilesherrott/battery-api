@@ -4,6 +4,7 @@ let battery = undefined
 const getBatteryInfo = async () => {
   try {
     battery = await navigator.getBattery()
+    console.log("Battery Manager", battery)
     battery.addEventListener("chargingchange", (e) => {
         chargingStatus()
     })
