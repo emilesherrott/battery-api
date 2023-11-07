@@ -45,7 +45,7 @@ On the BatteryManager object inside `"./index.js"` we have access to a series of
 This property provides access to the Geolocation API, allowing us to retrieve info on the current geolocation information. 
 ```js
 navigator.geolocation.getCurrentPosition(position => {
-    console.log(positions.coords.latitude, position.coords.longitude)
+    console.log(position.coords.latitude, position.coords.longitude)
 })
 ```
 
